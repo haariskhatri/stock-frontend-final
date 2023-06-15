@@ -12,10 +12,5 @@
             "source": "/(.*)",
             "destination": "/index.html"
         }
-    ],
-    "config": {
-        "build": {
-            "cwd": "stock-frontend"
-        }
-    }
+    ]
 }
