@@ -10,6 +10,7 @@ The backend code for this project can be found in the following repository:
 ## Live Link
 
 You can access the live version of the application [here](https://tradetrek.vercel.app/).
+Note: Please use the provided dummy credentials (Email: haarishkkhatri@gmail.com, Password: 123) for demonstration purposes. Email notifications can be observed using your own email address.
 
 ## Tools Used
 
@@ -48,6 +49,6 @@ The project was developed using the following tools and technologies:
 6. Live Graph:
    - A live graph is displayed, showing the performance of stocks.
 
-Note: Please use the provided dummy credentials (Email: haarishkkhatri@gmail.com, Password: 123) for demonstration purposes. Email notifications can be observed using your own email address.
+
 
 Feel free to explore and enjoy the stock exchange app!
