@@ -1,0 +1,46 @@
+.stock-table {
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #2a2a2a;
+}
+
+.stock-table table {
+    margin-bottom: 0;
+}
+
+.stock-table thead {
+    border: 0;
+    color: #b0b2ba;
+    font-family: 'Roboto', 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+
+}
+
+.stock-table th {
+    padding: 16px 16px;
+    font-weight: 500px;
+    border-bottom: 1px solid #2a2a2a;
+}
+
+.stock-table tbody tr {
+    border-radius: 10px;
+
+}
+
+.stock-table td {
+    color: white;
+    padding: 16px 16px;
+    border-bottom: 1px solid #2a2a2a;
+}
+
+td a {
+    color: white;
+    text-decoration: none;
+
+}
+
+td a:hover {
+    cursor: pointer;
+    color: #0abb92;
+}

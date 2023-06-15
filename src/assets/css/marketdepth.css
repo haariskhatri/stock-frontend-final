@@ -1,0 +1,68 @@
+.market-depth-title {
+    color: #dcdcdd;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.market-depth thead {
+    color: #dcdcdd;
+}
+
+.market-depth-progess {
+    display: flex;
+    height: 5px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px 0px;
+}
+
+.progress-1 {
+    background-color: #0abb92;
+    height: 100%;
+    transition: 0.1s all ease-in;
+
+}
+
+.progress-2 {
+    background-color: #d55438;
+    height: 100%;
+    transition: 0.1s all ease-in;
+}
+
+.percentage {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+td {
+    color: white;
+    border: 0;
+}
+
+.lower-row td {
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 0;
+    border-bottom: 0;
+}
+
+.market-depth .table-responsive {
+    border: 1px solid #2a2a2a;
+}
+
+.market-depth .table {
+    margin-bottom: 8px;
+}
+
+.market-depth {
+    margin-bottom: 20px;
+}
+
+.amount-data {
+    display: flex;
+    justify-content: space-between;
+}

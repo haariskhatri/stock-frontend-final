@@ -1,0 +1,9 @@
+.admin-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.admin-logo img {
+    max-width: 70px;
+}

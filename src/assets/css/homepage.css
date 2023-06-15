@@ -1,0 +1,84 @@
+.home {
+    color: white;
+    margin-bottom: 60px;
+}
+
+.stock-title {
+    color: #dcdcdd;
+    font-size: 20px;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.view-more a,
+.view-more {
+    color: #0abb92;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.view-more a:hover {
+    text-decoration: underline;
+}
+
+.stock-tiles {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 50px;
+}
+
+.stock-tiles li {
+    background-color: #1d1d1d;
+    border-radius: 5px;
+    padding: 16px 16px;
+    flex-grow: 1;
+}
+
+.stock-tiles li img {
+    width: 50px;
+    height: 50px;
+    display: block;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+
+.stock-tiles a {
+    color: #0abb92;
+    text-decoration: none;
+}
+
+.stock-tiles a:hover {
+    cursor: pointer;
+    color: white;
+}
+
+.stock-price {
+    padding: 10px 0px;
+}
+
+.your-investments {
+    color: #dcdcdd;
+    font-size: 20px;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.user-value {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #2a2a2a;
+    padding: 16px 16px;
+    border-radius: 10px;
+}
+
+.value-text {
+    color: #b0b2ba;
+}

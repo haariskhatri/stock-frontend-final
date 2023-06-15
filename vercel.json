@@ -1,0 +1,21 @@
+{
+    "rewrites": [
+        {
+            "source": "/api/:path(.*)",
+            "destination": "https://api-tradetrek.onrender.com/api/:path"
+        },
+        {
+            "source": "/public/:path(.*)",
+            "destination": "https://api-tradetrek.onrender.com/public/:path"
+        },
+        {
+            "source": "/(.*)",
+            "destination": "/index.html"
+        }
+    ],
+    "config": {
+        "build": {
+            "cwd": "stock-frontend"
+        }
+    }
+}
