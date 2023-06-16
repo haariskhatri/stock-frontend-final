@@ -32,6 +32,10 @@ The project was developed using the following tools and technologies:
    - Users can participate in live bidding for stocks.
    - Real-time updates are provided for bids and order matching.
    - Orders are matched based on price, with partial or combined order execution when necessary.
+   - Request for buy and sell made by same user will not be accepted.
+   - Buy request and Sell requests are combined to fullfill orders if quantity is less.
+   - The price of the stock and the market depth is changed in realtime.
+   - The graph also changes dynamically.
 
 3. IPO Registration and Subscription:
    - Admins can register IPOs for companies through the admin panel.
